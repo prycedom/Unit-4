@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <title>Online Registration Form</title>
+  </head>
+  <body>
+  <h1>THE CODE  REVIEW</h1>
+
+    <form class="main-form" action="index.html" method="post">
+      <div class="header">
+        <h2>Sign up for our Newsletter</h2>
+        <label class="header_content">Get the latest news on how your code is doing right in your inbox</label>
+      </div>
+
+      <fieldset class="contact">
+      <legend>Contact information</legend>
+
+        <div class="input-wrapper">
+        <label for="name">Full Name:</label>
+        <input required class="blue" placeholder="Required" type="text" id="name" name="user_name">
+        </div>
+
+        <div class="input-wrapper">
+        <label for="email">Email Address:</label>
+        <input required class="blue" placeholder="Required" type="email" id="email" name="user_email">
+        </div>
+
+        <div class="input-wrapper">
+        <label for="phone">Phone Number:</label>
+        <input class="blue" placeholder="Phone number" type="tel" id="phone" name="user_phone">
+        </div>
+
+        <div class="input-wrapper">
+        <label for="street">Street Address:</label>
+        <input class="blue" placeholder="Street Address" type="text" id="street" name="user_street">
+        </div>
+
+        <div class="input-wrapper">
+        <label for="city">City:</label>
+        <input class="blue" placeholder="City" type="text" id="city" name="user_city">
+        </div>
+
+        <div class="input-wrapper">
+        <label for="state">State:</label>
+        <select id="state" name="user_state">
+
+          <option value="select_state">Select State</option>
+          <option value="alabama">Alabama</option>
+          <option value="alaska">Alaska</option>
+          <option value="arizona">Arizona</option>
+          <option value="arkansas">Arkansas</option>
+          <option value="california">California</option>
+          <option value="colorado">Colorado</option>
+          <option value="connecticut">Connecticut</option>
+          <option value="delaware">Delaware</option>
+          <option value="florida">Florida</option>
+          <option value="georgia">Georgia</option>
+          <option value="hawaii">Hawaii</option>
+          <option value="idaho">Idaho</option>
+          <option value="illinois">Illinois</option>
+          <option value="indiana">Indiana</option>
+          <option value="iowa">Iowa</option>
+          <option value="kansas">Kansas</option>
+          <option value="kentucky">Kentucky</option>
+          <option value="louisiana">Louisiana</option>
+          <option value="maine">Maine</option>
+          <option value="maryland">Maryland</option>
+          <option value="massachusetts">Massachusetts</option>
+          <option value="michigan">Michigan</option>
+          <option value="minnesota">Minnesota</option>
+          <option value="mississippi">Mississippi</option>
+          <option value="missouri">Missouri</option>
+          <option value="montana">Montana</option>
+          <option value="nebraska">Nebraska</option>
+          <option value="nevada">Nevada</option>
+          <option value="new_hampshire">New Hampshire</option>
+          <option value="new_jersey">New Jersey</option>
+          <option value="new_mexico">New Mexico</option>
+          <option value="new_york">New York</option>
+          <option value="north_carolina">North Carolina</option>
+          <option value="north dakota">North Dakota</option>
+          <option value="ohio">Ohio</option>
+          <option value="oklahoma">Oklahoma</option>
+          <option value="oregon">Oregon</option>
+          <option value="pennsylvania">Pennsylvania</option>
+          <option value="rhode_island">Rhode Island</option>
+          <option value="south_carolina">South Carolina</option>
+          <option value="south_dakota">South Dakota</option>
+          <option value="tennessee">Tennessee</option>
+          <option value="texas">Texas</option>
+          <option value="utah">Utah</option>
+          <option value="vermont">Vermont</option>
+          <option value="virginia">Virginia</option>
+          <option value="washington">Washington</option>
+          <option value="west_virginia">West Virginia</option>
+          <option value="wisconsin">Wisconsin</option>
+          <option value="wyoming">Wyoming</option>
+        </select>
+        </div>
+
+        <div class="input-wrapper">
+        <label for="zip">Zip Code:</label>
+        <input class="blue" placeholder="Zip Code" type="text" id="zip" name="user_zip">
+        </div>
+      </fieldset>
+      <fieldset class="newsletter">
+        <legend>Newsletter</legend>
+        <p class="news-title">Select the Newsletters you would like to receive</p>
+
+          <input type="checkbox" id="html_news" name="newsletter" value="newsletter_htmlnews">
+          <label for="html_news">HTML News</label><br>
+
+          <input type="checkbox" id="css_news" name="newsletter" value="newsletter_cssnews">
+          <label for="css_news">CSS News</label><br>
+
+          <input type="checkbox" id="javascript_news" name="newsletter" value="newsletter_javascriptnews">
+          <label for="javascript_news">Javascript News</label><br>
+
+        <p>Newsletter Format</p>
+
+        <input type="radio" id="html" name="format" value="type_html">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="plain_text" name="format" value="type_plaintext">
+        <label for="plain_text">Plain Text</label><br>
+
+        <label for="other_topics">Other topics you'd like to hear about</label><br>
+        <textarea name="topics" id="other_topics" rows="8" cols="80"></textarea>
+      </fieldset>
+
+        <button type="submit" name="button">Sign Up</button>
+
+      <fieldset class="copyright">
+        <label>Copyright The Code Review</label>
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>
