@@ -442,7 +442,7 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: white;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -520,14 +520,14 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  color: #58e1c1;
+  color: #51ddfc;
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
 /* line 25, ../../Documents/GitHub/Unit-4/scss/components/_navigation.scss */
 .nav-link:hover {
   color: white;
-  background-color: #58e1c1;
+  background-color: #51ddfc;
 }
 
 /* ============================================= */
@@ -583,69 +583,70 @@ a {
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
+  color: white;
 }
 
-/* line 24, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 25, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
-/* line 28, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 29, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
-/* line 32, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 33, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-/* line 36, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 37, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
-/* line 40, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 41, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-/* line 44, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 45, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
-/* line 48, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 49, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-/* line 52, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 53, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 56, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 57, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 60, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 61, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 64, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 65, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 68, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 69, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 72, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 73, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
 }

@@ -16,13 +16,13 @@
   padding: 10px 0;
   display: block;
   width: 100%;
-  color: $color-primary;
+  color: $color-links;
   transition:
     background-color .2s ease-in-out,
     color .2s ease-in-out;
 }
 
 .nav-link:hover {
-  color: white;
-  background-color: #58e1c1;
+  color: $color-button-letters;
+  background-color: $color-links;
 }

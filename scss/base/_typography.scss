@@ -4,7 +4,7 @@
 
 * {
   font-family: 'Lato', sans-serif;
-  color: #777;
+  color: $color-p;
   box-sizing: border-box;
 }
 
@@ -32,7 +32,7 @@ a {
 }
 
 .link {
-  color: #51ddfc;
+  color: $color-links;
   font-weight: 700;
 }
 
@@ -42,6 +42,6 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  border-left: 8px solid $color-border;
   border-radius: 5px;
 }
