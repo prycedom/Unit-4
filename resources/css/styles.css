@@ -594,7 +594,7 @@ a {
   padding: 0 10px;
 }
 
-@media min-width {
+@media (min-width: 768px) {
   /* line 6, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
   .container {
     max-width: 1400px;

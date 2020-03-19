@@ -5,7 +5,7 @@
 
 .container {
   padding: 0 10px;
-  @media #{$brk} {
+  @media ($brk) {
     max-width: 1400px;
     display: block;
     margin-left: auto;
