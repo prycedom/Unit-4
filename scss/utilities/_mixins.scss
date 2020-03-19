@@ -1,5 +1,7 @@
-@mixin roundy($dim) {
-  width: $dim;
-  height: $dim;
-  border-radius: 50%;
+@mixin img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
 }
