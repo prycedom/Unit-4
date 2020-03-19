@@ -569,14 +569,24 @@ a {
   padding: 0 10px;
 }
 
-/* line 10, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+@media min-width {
+  /* line 6, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 16, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
-/* line 16, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 22, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -586,67 +596,67 @@ a {
   color: white;
 }
 
-/* line 25, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 31, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
-/* line 29, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 35, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
-/* line 33, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 39, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-/* line 37, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 43, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
-/* line 41, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 47, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-/* line 45, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 51, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
-/* line 49, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 55, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-/* line 53, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 59, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 57, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 63, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 61, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 67, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 65, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 71, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 69, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 75, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 73, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
+/* line 79, ../../Documents/GitHub/Unit-4/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
 }
@@ -655,13 +665,6 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 7, ../../Documents/GitHub/Unit-4/scss/components/_media-queries.scss */
-  .container {
-    max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
   /* line 14, ../../Documents/GitHub/Unit-4/scss/components/_media-queries.scss */
   .centered {
     display: block;
