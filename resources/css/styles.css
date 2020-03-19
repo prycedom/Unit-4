@@ -454,24 +454,49 @@ a {
   background-color: #51ddfc;
 }
 
-/* line 20, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+/* line 18, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+.default:hover {
+  background-color: #b5f1fe;
+}
+
+/* line 24, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 24, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+/* line 26, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+.error:hover {
+  background-color: #f5cacc;
+}
+
+/* line 31, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 28, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+/* line 33, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #cbc0e2;
+}
+
+/* line 38, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 32, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+/* line 40, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #b0e5c0;
+}
+
+/* line 45, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 47, ../../Documents/GitHub/Unit-4/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: #fec9bb;
 }
 
 /* ============================================= */
