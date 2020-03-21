@@ -2,8 +2,8 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media ($brk) {
-  @include small;
+
+@include small {
 
 .centered {
   display: block;

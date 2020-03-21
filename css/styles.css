@@ -690,7 +690,6 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  min-width: 768px;
   /* line 8, ../../Documents/GitHub/Unit-4/scss/components/_media-queries.scss */
   .centered {
     display: block;

@@ -13,5 +13,7 @@
 }
 
 @mixin small {
-  min-width: 768px
+  @media ($brk) {
+    @content;
+  }
 }
